@@ -34,6 +34,12 @@ yarn install
 
 ## Running the Application
 
+### Start Frontend
+```sh
+cd frontend
+yarn start 
+```
+
 ### Start Backend Auth Service
 ```sh
 cd backend
@@ -46,11 +52,7 @@ cd api-gateway
 yarn start
 ```
 
-### Start Frontend
-```sh
-cd frontend
-yarn start 
-```
+
 
 ## API Authentication & Security
 - The application uses **JWT-based authentication**.
