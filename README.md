@@ -26,7 +26,7 @@ This project is built using NestJS for the backend and React with TypeScript for
 ### Clone the Repository
 ```sh
 git clone https://github.com/Monzer-Mohamed/easy-generator-app.git
-cd your-repo
+cd easy-generator-app
 ```
 
 ### Install Dependencies
