@@ -10,6 +10,7 @@ This project is built using NestJS for the backend and React with TypeScript for
 - **Authentication:** JWT-based authentication
 - **Protected Routes:** Includes `getUserById`
 - **API Gateway:** Centralized entry point for microservices
+- **API Documentation:** Swagger documentation available for the Auth service at `http://localhost:4000/api/docs`
 
 ## Tech Stack
 - **Frontend:** React, TypeScript, CSS
@@ -18,12 +19,13 @@ This project is built using NestJS for the backend and React with TypeScript for
 - **Package Manager:** Yarn
 - **State Management:** Redux
 - **API Gateway:** NestJS-based API Gateway
+- **API Documentation:** Swagger (OpenAPI)
 
 ## Installation
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Monzer-Mohamed/easy-generator-app.git
 cd your-repo
 ```
 
@@ -37,7 +39,7 @@ yarn install
 ### Start Frontend
 ```sh
 cd frontend
-yarn start 
+yarn start
 ```
 
 ### Start Backend Auth Service
@@ -52,7 +54,11 @@ cd api-gateway
 yarn start
 ```
 
-
+### Access Swagger Documentation
+Once the Auth service is running, you can access the Swagger API documentation at:
+```
+http://localhost:4000/api/docs
+```
 
 ## API Authentication & Security
 - The application uses **JWT-based authentication**.
